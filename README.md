@@ -12,7 +12,7 @@ linear = TokenLinear(in_features, out_features, num_tokens, rank=32):
 
 
 ```
-@misc{algomancer2023,
+@misc{algomancer2024,
   author = {@algomancer},
   title  = {Some Dumb Shit},
   year   = {2024}
