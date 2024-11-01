@@ -5,6 +5,11 @@ The TokenLinear's a custom linear transformation module that expand TokenFormer 
 
 There is a bunch of ways to formulate this, this is just one.
 
+```python
+# Replace any linear layer with this, expand the parameters postraining by init ing new ones as zeros.
+linear = TokenLinear(in_features, out_features, num_tokens, rank=32):
+```
+
 
 ```
 @misc{algomancer2023,
