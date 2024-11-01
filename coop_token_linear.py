@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
+# Not worth it.
 class CoopCompeteTokenLinear(nn.Module):
     def __init__(self, in_features, out_features, num_tokens):
         super().__init__()
