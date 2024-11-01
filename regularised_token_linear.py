@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
+# Experimental Don't use
 class TokenRegularization(torch.autograd.Function):
     @staticmethod
     def forward(ctx, key_tokens, value_tokens):
